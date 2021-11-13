@@ -16,6 +16,8 @@
 		2451C176273FC4D000140361 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2451C175273FC4D000140361 /* ConcentrationTests.swift */; };
 		2451C180273FC4D000140361 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2451C17F273FC4D000140361 /* ConcentrationUITests.swift */; };
 		2451C182273FC4D000140361 /* ConcentrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2451C181273FC4D000140361 /* ConcentrationUITestsLaunchTests.swift */; };
+		247EA43B273FE4E400B1E2AC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EA43A273FE4E400B1E2AC /* Card.swift */; };
+		247EA43D273FE52D00B1E2AC /* CancentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EA43C273FE52D00B1E2AC /* CancentrationGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2451C17B273FC4D000140361 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2451C17F273FC4D000140361 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		2451C181273FC4D000140361 /* ConcentrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		247EA43A273FE4E400B1E2AC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		247EA43C273FE52D00B1E2AC /* CancentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancentrationGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		2451C152273FC4CF00140361 = {
 			isa = PBXGroup;
 			children = (
+				247EA43C273FE52D00B1E2AC /* CancentrationGame.swift */,
+				247EA43A273FE4E400B1E2AC /* Card.swift */,
 				2451C15D273FC4CF00140361 /* Concentration */,
 				2451C174273FC4D000140361 /* ConcentrationTests */,
 				2451C17E273FC4D000140361 /* ConcentrationUITests */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247EA43D273FE52D00B1E2AC /* CancentrationGame.swift in Sources */,
 				2451C163273FC4CF00140361 /* ViewController.swift in Sources */,
 				2451C15F273FC4CF00140361 /* AppDelegate.swift in Sources */,
 				2451C161273FC4CF00140361 /* SceneDelegate.swift in Sources */,
+				247EA43B273FE4E400B1E2AC /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
