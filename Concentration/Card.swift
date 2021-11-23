@@ -5,8 +5,8 @@ struct Card {
     var isMatched: Bool = false
     var identifier: Int
     
-    static var identifierNumber: Int = 0
-    static func identifierGenerator() -> Int {
+    private static var identifierNumber: Int = 0
+    private static func identifierGenerator() -> Int {
         identifierNumber += 1
         return identifierNumber
     }
